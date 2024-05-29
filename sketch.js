@@ -39,11 +39,11 @@ function draw() {
       let pointSizeV2 = 1;
 
       //draws dark green grass pixels
-      ellipse(x, y, pointSizeV1, pointSizeV2);
+      ellipse(x, y, pointSizeV2, pointSizeV1);
 
       //draws light green grass pixel
       fill(65, 152, 10, random(50, 50));
-      ellipse(x + 1, y + 1, pointSizeV1, pointSizeV2);
+      ellipse(x + 1, y + 1, pointSizeV2, pointSizeV1);
 
       //draws flowers
       if (random() < 0.001) {
